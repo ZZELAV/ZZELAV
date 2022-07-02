@@ -12,9 +12,9 @@
       sm:flex-row
     "
   >
-    <a href="/" class="btn about">Über mich</a>
-    <a href="/cv" class="btn cv">Lebenslauf</a>
-    <a href="/projects" class="btn projects">Projekte</a>
+    <a href="./" class="btn about">Über mich</a>
+    <a href="./cv" class="btn cv">Lebenslauf</a>
+    <a href="./projects" class="btn projects">Projekte</a>
   </nav>
 </template>
 
