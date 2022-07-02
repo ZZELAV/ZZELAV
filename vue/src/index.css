@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Noto+Sans:wght@500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn {
+        @apply flex bg-blue-500 w-56 px-3 py-2 rounded-lg shadow-lg shadow-blue-200 ring-1 ring-blue-200/5 text-white font-semibold justify-center hover:bg-blue-300 hover:text-slate-700 hover:ring hover:ring-blue-500 transition ease-in sm:px-6;
+    }
+
+    .box {
+        @apply bg-gray-100 shadow-lg shadow-blue-200 ring-1 ring-blue-200/5 rounded-lg;
+    }
+
+    div.about a.about,
+    div.cv a.cv,
+    div.projects a.projects {
+        @apply bg-blue-300 text-slate-700 ring-0;
+    }
+}
